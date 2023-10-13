@@ -1,0 +1,18 @@
+{
+  "name": "@owl352/json2xlsx-zoominfo",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "owl352",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn tsc && node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.5",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
